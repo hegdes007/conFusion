@@ -31,7 +31,7 @@ function show(data) {
 
   // Loop to access all rows
   for (let r of data.meals) {
-    tab += `<div class="row row-content align-items-center">
+    tab += `<div class="dish row row-content align-items-center">
     <div class="col-12 order-sm-last col-sm-4">
       <h3>Our Lipsmacking Chef Specials</h3>
     </div>
