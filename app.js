@@ -5,7 +5,6 @@ async function getapi(url) {
     const response = await fetch(url);
     // Storing data in form of JSON
     var data = await response.json();
-    console.log(data);
     if (response) {
       setTimeout(() => {
         hideloader();
@@ -55,7 +54,6 @@ function show(data) {
         </div>
         </div>`;
   }
-  console.log(tab);
   // Setting innerHTML as tab variable
   document.getElementById("dish").innerHTML = tab;
 }
